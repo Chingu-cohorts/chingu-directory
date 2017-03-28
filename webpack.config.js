@@ -46,5 +46,6 @@ module.exports = {
   },
   plugins: dev ?
   [HTMLWebpackPluginConfig] :
-  [HTMLWebpackPluginConfig, DefinePluginConfig, UglifyJsPluginConfig, GhPagesWebpackPluginConfig],
+  [HTMLWebpackPluginConfig, DefinePluginConfig, UglifyJsPluginConfig,
+  /*GhPagesWebpackPluginConfig*/],
 };

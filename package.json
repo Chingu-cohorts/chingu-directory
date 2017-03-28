@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "set NODE_ENV=development & webpack-dev-server"
-    /* npm run build with automatically upload the live website, use with caution */
-    //"build": "set NODE_ENV=production & webpack -p"
+    "start": "set NODE_ENV=development & webpack-dev-server",
+    "build": "set NODE_ENV=production & webpack -p"
   },
   "author": "Francesco Agnoletto",
   "license": "ISC",
