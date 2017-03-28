@@ -133,9 +133,9 @@ body {
     background: $teal;
   }
 
-  button {
+  .join-button {
     background: $orange;
-    &:hover {
+    &:hover, &:active, &:focus {
       background: $orange;
     }
   }

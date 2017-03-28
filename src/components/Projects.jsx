@@ -1,6 +1,8 @@
 import React from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
 
+/* At this time projects are inserted manually, TODO pull them from state */
+
 const Projects = () => (
   <Grid>
     <Row className="standardContainer" id="projects">
@@ -35,7 +37,12 @@ const Projects = () => (
       </Col>
       <Col md={3} >
         <div className="thumbnail" id="projthumb">
-          <h2>project 1</h2>
+          <div className="project-title">
+            <img alt="Duma" src="https://raw.githubusercontent.com/Kornil/Chingu-Animal-Icons/master/robots/chat-robot-angry/favicon-32x32.png" />
+            <h4>Momentum</h4>
+          </div>
+          <p>The team reverse-engineered a popular Chrome extension Momentum,
+            a productivity and habit tracker.</p>
         </div>
       </Col>
     </Row>

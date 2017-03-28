@@ -5,7 +5,8 @@ const Testimonials = ({ testimonialsArray }) => (
   <Grid>
     <Row className="standardContainer" id="testimonials">
       <h3>What they say about us</h3>
-
+      {/* quotes are stored as state and passed down here as props,
+      the data from GitHub is pulled from their API */}
       {testimonialsArray.map(user => (
         <Col md={3} key={user.login}>
           <div className="testimonial-text">
