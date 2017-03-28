@@ -11,9 +11,14 @@ clone the repo on your local machine thru the command line
 
 and then run `npm i` to install all the dependencies needed to run this project
 
-after that if you use a *linux OS* just run `npm start` and reach _localhost:8080_ on your browser to see the project
+after that if you use a *linux OS* set this script inside `package.json` and run `npm start`, reach _localhost:8080_ on your browser to see the project.
 
-if otherwise you use a *windows OS* just open `package.json` on your editor and modify the start script as follows before running `npm start`
+```
+"scripts": {
+    "start": "NODE_ENV=development webpack-dev-server",
+```
+
+if otherwise you use a *windows OS* just open `package.json` on your editor and modify the start script as follows before running `npm start` to see the website on _localhost:8080_.
 
 ```
 "scripts": {
