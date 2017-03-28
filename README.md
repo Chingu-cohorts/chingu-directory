@@ -3,7 +3,7 @@ the directory page for chingu
 
 ## Install
 
-you must have npm installed in your local machine, node comes with npm so if you want you can install it from [Node official website](https://nodejs.org/en/)
+You must have npm installed in your local machine, node comes with npm so if you want you can install it from [Node official website](https://nodejs.org/en/)
 
 clone the repo on your local machine thru the command line
 
@@ -19,3 +19,8 @@ if otherwise you use a *windows OS* just open `package.json` on your editor and 
 "scripts": {
     "start": "set NODE_ENV=development & webpack-dev-server",
 ```
+
+
+## Code guidelines
+
+This repository follows [AirBnB Javascript style guide](https://github.com/airbnb/javascript) so be sure to check your code before sending a pull request, comments are also required on a lot of stuff, be sure to explain your code so others can work better.
