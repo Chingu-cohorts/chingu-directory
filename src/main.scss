@@ -31,13 +31,21 @@ body {
 }
 
 /* the title evelement of every section */
-.title {
-  font-weight: 700;
-  box-shadow: inset 0 -3px 0 0 $primeColor;
-  padding-bottom: 18px;
-  display: inline-block;
-  margin-bottom: 40px;
+.titleContainer {
+  text-align: center;
+
+  .title {
+    font-weight: 700;
+    box-shadow: inset 0 -3px 0 0 $primeColor;
+    padding-bottom: 18px;
+    display: inline-block;
+    margin-bottom: 40px;
+    #projects & {
+      box-shadow: inset 0 -3px 0 0 $teal;
+    }
+  }
 }
+
 
 /* navbar */
 .navbar-inverse {
@@ -72,7 +80,6 @@ body {
   h1 {
     font-size: 4.5em;
   }
-
   h1, p {
     font-weight: 700;
   }
@@ -140,14 +147,15 @@ body {
     }
   }
 
-  span img {
-    float: left;
-    padding: 5px;
-  }
-
-  span h2 {
-    margin-top: 5px;
-  }
+  span {
+    img {
+      float: left;
+      padding: 5px;
+    }
+    h2 {
+      margin-top: 5px;
+    }
+  } 
 
   .desc {
     padding: 15px;
@@ -158,7 +166,7 @@ body {
   }
 }
 
-/* projects container */
+/* projects container & testimonials */
 .standardContainer {
   margin-top: 70px;
   padding: 0 15px;
@@ -179,10 +187,8 @@ body {
     padding: 12px;
     border: 0;
     border-radius: 16px;
-    background: $darkgreen;    
-    &#projthumb {
-      border-top-left-radius: 0;
-    }
+    background: $darkgreen;
+    border-top-left-radius: 0;
 
     p {
       padding-top: 10px;
@@ -225,7 +231,7 @@ body {
 
 }
 
-/* info 4 buttons container */
+/* info 3 buttons container */
 .buttonContainer {
   text-align: center;
   margin: 75px auto 0;

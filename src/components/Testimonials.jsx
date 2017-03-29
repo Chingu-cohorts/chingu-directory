@@ -4,7 +4,9 @@ import { Grid, Row, Col } from 'react-bootstrap';
 const Testimonials = ({ testimonialsArray }) => (
   <Grid>
     <Row className="standardContainer" id="testimonials">
-      <h3>What they say about us</h3>
+      <div className="titleContainer">
+        <h3 className="title">What they say about us</h3>
+      </div>
       {/* quotes are stored as state and passed down here as props,
       the data from GitHub is pulled from their API */}
       {testimonialsArray.map(user => (

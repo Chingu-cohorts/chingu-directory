@@ -6,9 +6,11 @@ import { Grid, Row, Col } from 'react-bootstrap';
 const Projects = () => (
   <Grid>
     <Row className="standardContainer" id="projects">
-      <h3>Things we have built</h3>
+      <div className="titleContainer">
+        <h3 className="title">Things we have built</h3>
+      </div>
       <Col md={3} >
-        <div className="thumbnail" id="projthumb">
+        <div className="thumbnail">
           <div className="project-title">
             <img alt="MDNBot" src="https://raw.githubusercontent.com/Kornil/Chingu-Animal-Icons/master/robots/chat-robot-genie/favicon-32x32.png" />
             <h4>MDNBot</h4>
@@ -17,7 +19,7 @@ const Projects = () => (
         </div>
       </Col>
       <Col md={3} >
-        <div className="thumbnail" id="projthumb">
+        <div className="thumbnail">
           <div className="project-title">
             <img alt="Lion-bot" src="https://raw.githubusercontent.com/Kornil/Chingu-Animal-Icons/master/robots/chat-robot-flash/favicon-32x32.png" />
             <h4>Lion-bot</h4>
@@ -27,7 +29,7 @@ const Projects = () => (
         </div>
       </Col>
       <Col md={3} >
-        <div className="thumbnail" id="projthumb">
+        <div className="thumbnail">
           <div className="project-title">
             <img alt="Duma" src="https://raw.githubusercontent.com/Kornil/Chingu-Animal-Icons/master/robots/chat-robot-life/favicon-32x32.png" />
             <h4>Duma</h4>
@@ -36,7 +38,7 @@ const Projects = () => (
         </div>
       </Col>
       <Col md={3} >
-        <div className="thumbnail" id="projthumb">
+        <div className="thumbnail">
           <div className="project-title">
             <img alt="Duma" src="https://raw.githubusercontent.com/Kornil/Chingu-Animal-Icons/master/robots/chat-robot-angry/favicon-32x32.png" />
             <h4>Momentum</h4>

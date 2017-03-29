@@ -4,7 +4,7 @@ import { Grid, Row, Col } from 'react-bootstrap';
 const CohortsInfo = () => (
   <Grid className="buttonContainer">
     <Row>
-      <div>
+      <div className="titleContainer">
         <h2 className="title">WHY CHINGU</h2>
       </div>
       <Col md={4} >
