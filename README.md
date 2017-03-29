@@ -7,7 +7,7 @@ You must have npm installed in your local machine, node comes with npm so if you
 
 clone the repo on your local machine thru the command line
 
-`git clone https://github.com/freeCodeCamp/open-source-for-good-directory`
+`git clone https://github.com/Chingu-cohorts/chingu-directory/`
 
 and then run `npm i` to install all the dependencies needed to run this project
 
