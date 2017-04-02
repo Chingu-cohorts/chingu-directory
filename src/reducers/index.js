@@ -2,6 +2,7 @@ import { combineReducers } from 'redux';
 
 import cohorts from './cohorts';
 import testimonials from './testimonials';
+import projects from './projects';
 
 const selection = (state = 0, action) => {
   switch (action.type) {
@@ -10,4 +11,4 @@ const selection = (state = 0, action) => {
   }
 };
 
-export default combineReducers({ cohorts, testimonials, selection });
+export default combineReducers({ cohorts, testimonials, projects, selection });

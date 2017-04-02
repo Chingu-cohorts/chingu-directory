@@ -4,15 +4,15 @@ const initialState = {
   testimonialsArray: [
     {
       login: 'periman2',
-      quote: 'An amazing collaborative experience beyond any expectation.',
+      quote: 'An amazing collaborative experience beyond my expectations.',
     },
     {
       login: 'Trion129',
       quote: 'Learn with other developers, you start as noob and become a pro with a family of devs.',
     },
     {
-      login: 'VladimirLogachev',
-      quote: 'Chingu is to FreeCodeCamp as Redux is to React.',
+      login: 'pankaja-shree',
+      quote: 'Chingu cohorts is the best place for self learning web enthusiasts - to learn together, collaborate and work on real projects in remote teams.',
     },
     {
       login: 'P1xt',

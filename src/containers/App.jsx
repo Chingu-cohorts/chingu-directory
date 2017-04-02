@@ -35,7 +35,7 @@ class App extends React.Component {
         <CallToAction />
         <Cohorts cohortsExample={this.props.cohortsExample} />
         <CohortsInfo />
-        <Projects />
+        <Projects projectsArray={this.props.projectsArray} />
         <Testimonials testimonialsArray={this.props.testimonialsArray} />
         <Donation />
       </div>
@@ -46,18 +46,21 @@ class App extends React.Component {
 App.propTypes = {
   cohortsExample: React.PropTypes.arrayOf(React.PropTypes.object),
   testimonialsArray: React.PropTypes.arrayOf(React.PropTypes.object),
+  projectsArray: React.PropTypes.arrayOf(React.PropTypes.object),
   getGithubData: React.PropTypes.func,
 };
 
 App.defaultProps = {
   cohortsExample: [],
   testimonialsArray: [],
+  projectsArray: [],
   getGithubData: actions.getGithubData,
 };
 
 const mapStateToProps = state => ({
   cohortsExample: state.cohorts.cohortsExample,
   testimonialsArray: state.testimonials.testimonialsArray,
+  projectsArray: state.projects.projectsArray,
 });
 
 App.contextTypes = {

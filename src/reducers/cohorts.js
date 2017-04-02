@@ -18,7 +18,7 @@ const initialState = {
     },
     {
       name: 'Flamingo',
-      tags1: ['#machine-learning'],
+      tags1: ['#data-science'],
       tags2: ['#full-time'],
       description: 'Wanna build the androids from Blade Runner? The flying animals cohorts are the place for you.',
       link: '',
