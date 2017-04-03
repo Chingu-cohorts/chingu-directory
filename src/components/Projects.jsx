@@ -10,14 +10,16 @@ const Projects = ({ projectsArray }) => (
         <h3 className="title">Things we have built</h3>
       </div>
       {projectsArray.map(project => (
-        <Col md={3} >
-          <div className="thumbnail">
-            <div className="project-title">
-              <img alt={project.title} src={project.image} />
-              <h4>{project.title}</h4>
+        <Col md={3} className="project-card">
+          <a href={project.link}>
+            <div className="thumbnail">
+              <div className="project-title">
+                <img alt={project.title} src={project.image} />
+                <h4>{project.title}</h4>
+              </div>
+              <p>{project.description}</p>
             </div>
-            <p>{project.description}</p>
-          </div>
+          </a>
         </Col>
       ))}
     </Row>

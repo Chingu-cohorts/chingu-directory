@@ -7,16 +7,16 @@ const initialState = {
       quote: 'An amazing collaborative experience beyond my expectations.',
     },
     {
-      login: 'Trion129',
-      quote: 'Learn with other developers, you start as noob and become a pro with a family of devs.',
+      login: 'P1xt',
+      quote: 'I honestly don\'t believe I\'ve seen any collaboration environment produce this much overall "learning" ever, really. ',
     },
     {
       login: 'pankaja-shree',
       quote: 'Chingu cohorts is the best place for self learning web enthusiasts - to learn together, collaborate and work on real projects in remote teams.',
     },
     {
-      login: 'P1xt',
-      quote: 'I honestly don\'t believe I\'ve seen any collaboration environment produce this much overall "learning" ever, really. ',
+      login: 'Trion129',
+      quote: 'Learn with other developers, you start as noob and become a pro with a family of devs.',
     },
   ],
 };

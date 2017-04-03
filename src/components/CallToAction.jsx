@@ -6,8 +6,8 @@ const CallToAction = () => (
     <Row className="call-to-action">
       <Col md={8} >
         <h1>
+          <span className="yellow">CODE</span> TOGETHER<br />
           <span className="yellow">LEARN</span> MORE<br />
-          <span className="yellow">FEEL</span> LESS FRUSTRATED<br />
           <span className="yellow">GET</span> THE JOB
         </h1>
       </Col>

@@ -19,7 +19,7 @@ const Cohorts = ({ cohortsExample }) => (
           <div className="desc">
             <p>{elem.tags1.map(tag => `${tag} `)}<br />{elem.tags2.map(tag => `${tag} `)}</p>
             <p>{elem.description}</p>
-            <Button className="join-button" href="http://bit.ly/2m0XqK3" bsSize="small" bsStyle="success">Join now!</Button>
+            <Button className="join-button" href={elem.link} bsSize="small" bsStyle="success">Join now!</Button>
           </div>
         </Col>
         ))}

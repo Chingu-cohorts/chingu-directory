@@ -8,7 +8,8 @@ const Donation = () => (
         <h3><b>Share some love</b></h3>
         {/* eslint-disable */}
         <p>
-          For anyone who wants to or can give a monthly donation, at the end of each month you will be able to. It takes many hours to coordinate, facilitate and make these cohorts what they are, as well as funds to sustain. So if you found your cohort experience valuable and want to support Chingu's existence, any amount is much appreciated.
+          For anyone who wants to or can give a monthly donation, at the end of each month you will be able to. It takes many hours to coordinate, facilitate and make these cohorts what they are, as well as funds to sustain. So if you found your cohort experience valuable and want to support Chingu's existence, any amount is much appreciated.<br />
+          If you have any feedback or something to share send us an email here <a href="mailto:chinguftw@gmail.com" target="_top">chinguftw@gmail.com</a>.
         </p>
         {/* eslint-enable */}
         <div>
