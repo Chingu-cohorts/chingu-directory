@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
 const NavbarElement = () => (
-  <Navbar inverse collapseOnSelect>
+  <Navbar inverse collapseOnSelect fixedTop>
     <Navbar.Header>
       <Navbar.Brand>
         <a href="/">CHINGU</a>
