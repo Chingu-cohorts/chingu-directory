@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
 import NavbarElement from '../components/Navbar';
@@ -44,10 +45,10 @@ class App extends React.Component {
 }
 
 App.propTypes = {
-  cohortsExample: React.PropTypes.arrayOf(React.PropTypes.object),
-  testimonialsArray: React.PropTypes.arrayOf(React.PropTypes.object),
-  projectsArray: React.PropTypes.arrayOf(React.PropTypes.object),
-  getGithubData: React.PropTypes.func,
+  cohortsExample: PropTypes.arrayOf(PropTypes.object),
+  testimonialsArray: PropTypes.arrayOf(PropTypes.object),
+  projectsArray: PropTypes.arrayOf(PropTypes.object),
+  getGithubData: PropTypes.func,
 };
 
 App.defaultProps = {
@@ -64,7 +65,7 @@ const mapStateToProps = state => ({
 });
 
 App.contextTypes = {
-  store: React.PropTypes.object.isRequired,
+  store: PropTypes.object.isRequired,
 };
 
 export default connect(mapStateToProps, actions)(App);

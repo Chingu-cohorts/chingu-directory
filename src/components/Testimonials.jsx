@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Grid, Row, Col } from 'react-bootstrap';
 
 const Testimonials = ({ testimonialsArray }) => (
@@ -10,7 +11,7 @@ const Testimonials = ({ testimonialsArray }) => (
       {/* quotes are stored as state and passed down here as props,
       the data from GitHub is pulled from their API */}
       {testimonialsArray.map(user => (
-        <Col md={3} key={user.login}>
+        <Col md={3} key={user.login} >
           <div className="testimonial-text">
             <p>&quot;{user.quote}&quot;</p>
           </div>
@@ -26,7 +27,7 @@ const Testimonials = ({ testimonialsArray }) => (
 );
 
 Testimonials.propTypes = {
-  testimonialsArray: React.PropTypes.arrayOf(React.PropTypes.object),
+  testimonialsArray: PropTypes.arrayOf(PropTypes.object),
 };
 
 Testimonials.defaultProps = {

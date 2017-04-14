@@ -15,7 +15,16 @@ const DefinePluginConfig = new webpack.DefinePlugin({
   'process.env.NODE_ENV': JSON.stringify('production'),
 });
 
-const UglifyJsPluginConfig = new webpack.optimize.UglifyJsPlugin();
+const UglifyJsPluginConfig = new webpack.optimize.UglifyJsPlugin({
+  beautify: false,
+  mangle: {
+    screw_ie8: true,
+  },
+  compress: {
+    screw_ie8: true,
+  },
+  comments: false,
+});
 
 const GhPagesWebpackPluginConfig = new GhPagesWebpackPlugin({ path: './build' });
 
@@ -47,5 +56,5 @@ module.exports = {
   plugins: dev ?
   [HTMLWebpackPluginConfig] :
   [HTMLWebpackPluginConfig, DefinePluginConfig, UglifyJsPluginConfig,
-  /*GhPagesWebpackPluginConfig*/],
+    GhPagesWebpackPluginConfig],
 };

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Grid, Row, Col } from 'react-bootstrap';
 
 /* At this time projects are inserted manually, TODO pull them from state */
@@ -10,7 +11,7 @@ const Projects = ({ projectsArray }) => (
         <h3 className="title">Things we have built</h3>
       </div>
       {projectsArray.map(project => (
-        <Col md={3} className="project-card">
+        <Col md={3} className="project-card" key={project.title} >
           <a href={project.link}>
             <div className="thumbnail">
               <div className="project-title">
@@ -27,7 +28,7 @@ const Projects = ({ projectsArray }) => (
 );
 
 Projects.propTypes = {
-  projectsArray: React.PropTypes.arrayOf(React.PropTypes.object),
+  projectsArray: PropTypes.arrayOf(PropTypes.object),
 };
 
 Projects.defaultProps = {

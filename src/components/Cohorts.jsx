@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Grid, Row, Col, Button } from 'react-bootstrap';
 
 const Cohorts = ({ cohortsExample }) => (
@@ -28,7 +29,7 @@ const Cohorts = ({ cohortsExample }) => (
 );
 
 Cohorts.propTypes = {
-  cohortsExample: React.PropTypes.arrayOf(React.PropTypes.object),
+  cohortsExample: PropTypes.arrayOf(PropTypes.object),
 };
 
 Cohorts.defaultProps = {
