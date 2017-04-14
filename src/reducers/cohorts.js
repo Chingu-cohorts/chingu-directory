@@ -7,14 +7,14 @@ const initialState = {
       tags1: ['#back-end'],
       tags2: ['#part-time', '#full-time'],
       description: 'No one knows what these guys do, we grouped every weird dev in the sea animals cohorts.',
-      link: 'http://bit.ly/2m0XqK3',
+      link: 'http://bit.ly/2otMCWT',
     },
     {
       name: 'Red Panda',
       tags1: ['#front-end'],
       tags2: ['#part-time', '#full-time'],
       description: 'Love playing with material design colors? Join the land animals cohorts to find devs like you.',
-      link: 'http://bit.ly/2m0XqK3',
+      link: 'http://bit.ly/2otMCWT',
     },
     {
       name: 'Flamingo',
