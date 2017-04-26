@@ -6,9 +6,9 @@ const CallToAction = () => (
     <Row className="call-to-action">
       <Col md={8} >
         <h1>
-          <span className="yellow">CODE</span> TOGETHER<br />
-          <span className="yellow">LEARN</span> MORE<br />
-          <span className="yellow">GET</span> THE JOB
+          <span className="yellow">CODE</span> MORE<br />
+          <span>LEARN</span> MORE<br />
+          <span className="yellow">BUILD</span> MORE
         </h1>
       </Col>
       <Col md={4} className="call-right">

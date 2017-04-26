@@ -3,26 +3,37 @@
 const initialState = {
   cohortsExample: [
     {
-      name: 'Penguin',
+      name: 'Penguins',
       tags1: ['#back-end'],
-      tags2: ['#part-time', '#full-time'],
-      description: 'No one knows what these guys do, we grouped every weird dev in the sea animals cohorts.',
+      tags2: ['#part-time','#full-time'],
+      description: 'No one knows what these developers do, we grouped every weird dev in the Penguins cohort.',
       link: 'http://bit.ly/2otMCWT',
+      space: '18',
     },
     {
-      name: 'Red Panda',
+      name: 'Red Pandas',
       tags1: ['#front-end'],
-      tags2: ['#part-time', '#full-time'],
-      description: 'Love playing with material design colors? Join the land animals cohorts to find devs like you.',
+      tags2: ['#full-time'],
+      description: 'Do you like writing javascript from dawn to dusk? Apply to level up your coding skills with us.',
       link: 'http://bit.ly/2otMCWT',
+      space: '36',
     },
     {
-      name: 'Flamingo',
+      name: 'Cheetahs',
       tags1: ['#data-science'],
       tags2: ['#full-time'],
-      description: 'Wanna build the androids from Blade Runner? The flying animals cohorts are the place for you.',
+      description: 'Wanna build the androids from Blade Runner? The Cheetah cohort is the place for you.',
       link: 'http://bit.ly/2oyI94T',
+      space: '16',
     },
+    {
+      name: 'Flamingos',
+      tags1: ['#front-end'],
+      tags2: ['#part-time'],
+      description: 'Do you love material design colors but you do not have a lot of time? Become a flamingo.',
+      link: 'hhttp://bit.ly/2otMCWT',
+      space: '29',
+    }
   ],
 };
 

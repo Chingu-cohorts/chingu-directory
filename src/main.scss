@@ -131,6 +131,9 @@ body {
   color: #fff;
   padding: 10px;
 
+  &:nth-child(1) {
+    background: $blue;
+  }
   &:nth-child(2) {
     background: $darkgreen;
   }
