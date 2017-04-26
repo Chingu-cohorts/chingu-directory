@@ -16,9 +16,9 @@ const initialState = {
     },
     {
       title: 'Campfire-stories',
-      description: 'Remix of Humans of New York, but for the Free Code Camp community. A website where campers can share their personal stories.',
+      description: 'Remix of Humans of New York, for the Free Code Camp community.',
       image: 'https://raw.githubusercontent.com/Kornil/Chingu-Animal-Icons/master/robots/chat-robot-love/favicon-32x32.png',
-      link: 'http://campfire-stories.xyz/',
+      link: 'https://github.com/Chingu-cohorts/campfire-stories',
     },
     {
       title: 'Momentum',

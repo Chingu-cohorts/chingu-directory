@@ -10,11 +10,11 @@ const NavbarElement = () => (
       <Navbar.Toggle />
     </Navbar.Header>
     <Navbar.Collapse>
-      <Nav pullRight>
-        <NavItem eventKey={1} href="#cohort-title">COHORTS</NavItem>
-        <NavItem eventKey={2} href="#cohort-about">ABOUT</NavItem>
-        <NavItem eventKey={3} href="#cohort-contact">CONTACT</NavItem>
-      </Nav>
+      {/*<Nav pullRight>
+        <NavItem eventKey={1} href="#cohortContainer">COHORTS</NavItem>
+        <NavItem eventKey={2} href="#projects">PROJECTS</NavItem>
+        <NavItem eventKey={3} href="#testimonials">TESTIMONIALS</NavItem>
+      </Nav>*/}
     </Navbar.Collapse>
   </Navbar>
 );
