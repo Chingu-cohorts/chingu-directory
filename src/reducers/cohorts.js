@@ -5,7 +5,7 @@ const initialState = {
     {
       name: 'Penguins',
       tags1: ['#back-end'],
-      tags2: ['#part-time','#full-time'],
+      tags2: ['#part-time', '#full-time'],
       description: 'No one knows what these developers do, we grouped every weird dev in the Penguins cohort.',
       link: 'http://bit.ly/2otMCWT',
       space: '18',
@@ -31,9 +31,9 @@ const initialState = {
       tags1: ['#front-end'],
       tags2: ['#part-time'],
       description: 'Do you love material design colors but you do not have a lot of time? Become a flamingo.',
-      link: 'hhttp://bit.ly/2otMCWT',
+      link: 'http://bit.ly/2otMCWT',
       space: '29',
-    }
+    },
   ],
 };
 
