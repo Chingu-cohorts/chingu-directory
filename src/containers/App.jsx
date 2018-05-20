@@ -7,7 +7,6 @@ import CallToAction from '../components/CallToAction';
 import Cohorts from '../components/Cohorts';
 import Projects from '../components/Projects';
 import Testimonials from '../components/Testimonials';
-import Donation from '../components/Donation';
 import CohortsInfo from '../components/CohortsInfo';
 
 import * as actions from '../actions';
@@ -38,7 +37,6 @@ class App extends React.Component {
         <CohortsInfo />
         <Projects projectsArray={this.props.projectsArray} />
         <Testimonials testimonialsArray={this.props.testimonialsArray} />
-        <Donation />
       </div>
     );
   }

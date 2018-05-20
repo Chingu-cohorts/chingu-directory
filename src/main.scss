@@ -8,8 +8,8 @@ $lightgreen: #8BC34A;
 $orange: #FD7400;
 
 @mixin selection {
-  &::-moz-selection { @content; }
-  &::selection { @content; }
+  ::-moz-selection { @content; }
+  ::selection { @content; }
 }
 
 @include selection {
